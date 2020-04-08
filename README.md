@@ -24,3 +24,8 @@ And run the executable to generate the predictions:
 ./a.out
 ```
 
+You can then compare FastForest predictions (in `fastforest_probs.csv`) to the original XGBoost predictions (in `xgboost_probs.csv`).
+
+> For now, I can't get the predictions of FastForest to match XGBoost ones.
+>
+> See [this issue](https://github.com/guitargeek/XGBoost-FastForest/issues/3) for more information.
